@@ -1,4 +1,4 @@
-USE employeesDB;
+USE emsDB;
 
 INSERT INTO department
     (name)
@@ -23,17 +23,17 @@ VALUES
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
-    ('Thrawn', 'Admiral', 1, null),
-    ('Bacca', 'Chew', 2, 1),
-    ('Solo', 'Han', 2, 1),
-    ('Skywalker', 'Luke', 2, 1),
-    ('PO', 'C3', 5, 1),
-    ('D2', 'R2', 3, null),
-    ('Vader', 'Darth', 4, 6),
-    ('Organa-Solo', 'Leia', 5, 1),
-    ('Kenobi', 'Obi-Wan', 6, 1),
-    ('Fett', 'Boba', 6, 1),
-    ('TheHutt', 'Jabba', 6, 1),
-    ('Calrissian', 'Lando', 7, null),
-    ('Djarin', 'Din', 8, 12),
-    ('Djarin', 'Grogu', 4, 6);
+    ('Admiral', 'Thrawn', 1, null),
+    ('Chew', 'Bacca', 2, 1),
+    ('Han', 'Solo', 2, 1),
+    ('Luke', 'Skywalker', 2, 1),
+    ('C3', 'PO', 5, 1),
+    ('R2', 'D2', 3, null),
+    ('Darth', 'Vader', 4, 6),
+    ('Leia', 'Organa-Solo', 5, 1),
+    ('Obi-Wan', 'Kenobi', 6, 1),
+    ('Boba', 'Fett', 6, 1),
+    ('Jabba', 'TheHutt', 6, 1),
+    ('Lando', 'Calrissian', 7, null),
+    ('Din', 'Djarin', 8, 12),
+    ('Grogu', 'Djarin', 4, 6);
